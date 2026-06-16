@@ -1,0 +1,62 @@
+#h1{
+    color:brown
+}
+
+.h2{
+    color:rgb(220,50,50)
+}
+
+.para{
+    color:#003214;
+}
+
+
+#bg{
+    background-color: bisque;
+    background-image: url(imag2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
+#border{
+    border-style:ridge;
+    border-radius:10px 5px 25px 10px;
+}
+
+/*body{
+    border-style: solid;
+}*/
+
+
+#div1{ 
+    border-style: dashed;
+    background-color: blueviolet;
+   
+    min-height: 100px; 
+}
+#div2{
+    border: 2px solid red ;
+    padding: 10px 10px 10% 10p%
+    ;
+}
+
+
+.div0{
+    border: 1px solid red;
+    padding: 10px 10px 10% 10p%
+    ;
+}
+
+body{
+    border: 2px dotted black;
+}
+
+#marg{
+    margin-top:50px ;
+}
+
+#colps{
+    margin-bottom: 30px;
+}
