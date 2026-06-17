@@ -1,0 +1,87 @@
+ #text{
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+   } 
+
+img{
+     vertical-align: middle;
+     border: 1px;
+     cursor: zoom-in;
+   }
+
+#shadow{
+    font-size: 70px;
+    text-shadow: /*horizontally-shadow*/5px /*vertical-shadow*/10px /*blur-shadow*/5px purple;
+   }
+
+a{
+    text-decoration: none;
+   }
+a:link{
+    color: red;
+   }
+   
+a:visited{
+    color:black;
+   }
+
+a:hover{
+    color: orange;
+   }
+
+a:active{
+    color:red;
+   }
+
+/* h1{
+    font-weight: 500;
+    text-decoration: underline;
+    font-style: italic;
+   } */
+
+   
+
+@font-face{
+    font-family: abc;
+    src: url('ArianaVioleta-dz2K.ttf');
+    
+   }
+
+#p{
+    font-family: abc;
+    font-size: 50px;
+   } 
+
+/* #parent{
+    font-size: 30px;
+
+   }
+
+#child{
+   font-size: 0.5em; /*depends on parent font size*/
+   }
+    */
+
+html{
+
+    font-size: 14px;
+}
+
+#parent{
+    font-size: 4rem; /*size 56px= 4 * 14(root/html)*/
+    }
+
+#child{
+    font-size: 2rem; /*size 28px= 2 * 14(root/html)*/
+}    
+
+#box-shadow{
+    border: 1px solid green;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 10px 15px 5px gray;
+}
