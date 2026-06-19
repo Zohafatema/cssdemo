@@ -1,7 +1,0 @@
-p{
-    width: 100px;
-    padding:20px ;
-    box-shadow: 5px 5px 10px gray;
-    color: red;
-    text-size-adjust: calc(100% + 50px);
-}
