@@ -4,6 +4,10 @@
     float: left;
     background-color: lawngreen
 }
+img{
+    width: 450px;
+    height: auto;
+}
 
 #div2{
     width: 30%;
@@ -30,5 +34,6 @@ h1{
         width:100%;
         color:white;
         background-color: black;
+
     }
 }
